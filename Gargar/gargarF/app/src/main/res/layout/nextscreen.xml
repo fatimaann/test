@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff28">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/image"
+        android:background="#fff6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/Text1"
+        android:background="#fff6"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/Text2"
+        android:background="#fff6"
+        android:layout_alignBaseline="@+id/Text3"
+        android:layout_alignBottom="@+id/Text3"
+        android:layout_alignLeft="@+id/Text3"
+        android:layout_alignStart="@+id/Text3" />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/Text3"
+        android:background="#fff6"
+        android:layout_below="@+id/Text1"
+        android:layout_alignLeft="@+id/Text1"
+        android:layout_alignStart="@+id/Text1"
+        android:layout_marginTop="20dp" />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/Text4"
+        android:background="#fff6"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/Text2"
+        android:layout_alignLeft="@+id/Text2"
+        android:layout_alignStart="@+id/Text2" />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/Text"
+        android:background="#fff6"
+        android:layout_below="@+id/Text4"
+        android:layout_alignLeft="@+id/Text4"
+        android:layout_alignStart="@+id/Text4"
+        android:layout_marginTop="20dp" />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/Text5"
+        android:background="#fff6"
+        android:layout_below="@+id/Text"
+        android:layout_alignLeft="@+id/Text"
+        android:layout_alignStart="@+id/Text"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="X1, Y1"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/Text1"
+        android:layout_toLeftOf="@+id/Text1"
+        android:layout_toStartOf="@+id/Text1" />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="X2, Y2"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/textView"
+        android:layout_alignTop="@+id/Text2"
+        android:layout_toLeftOf="@+id/Text2"
+        android:layout_toStartOf="@+id/Text2" />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Difference"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/textView1"
+        android:layout_alignTop="@+id/Text4"
+        android:layout_toLeftOf="@+id/Text4"
+        android:layout_toStartOf="@+id/Text4" />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Motion"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/Text5"
+        android:layout_toLeftOf="@+id/Text"
+        android:layout_toStartOf="@+id/Text" />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Quadrant"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/textView4"
+        android:layout_alignTop="@+id/Text5"
+        android:layout_toLeftOf="@+id/Text5"
+        android:layout_toStartOf="@+id/Text5" />
+
+
+</RelativeLayout>
